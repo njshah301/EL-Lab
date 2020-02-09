@@ -1,0 +1,5 @@
+function s=su(x,y)
+summation=x+y;
+s=D2b(summation);
+
+end

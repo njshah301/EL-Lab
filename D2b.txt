@@ -1,0 +1,28 @@
+function d=D2b(a)
+i=0;
+sum=0;
+c=0;
+p=1;
+for p=1:100
+   
+  if a==2^p
+      a=a+1;
+
+   c=c+1;
+  end
+end
+while a~=0
+    n=rem(a,2);
+   
+    sum=sum+n*10^i;
+    a=a/2;
+   
+    i=i+1;
+a=floor(a);
+end
+if c~=0
+d=sum-1;
+else
+d=sum;
+end
+end

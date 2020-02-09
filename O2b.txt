@@ -1,0 +1,13 @@
+function y=O2b(a)
+
+i=0;
+sum1=0;
+while a~=0
+    n=rem(a,10);
+    sum1=sum1+((8^i)*n);
+    a=a/10;
+    i=i+1;
+a=floor(a);
+end
+y=sum1;
+end

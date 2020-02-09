@@ -1,0 +1,4 @@
+function s3=sum3(x,y,z)
+suma3=x+y+z;
+s3=D2b(suma3);
+end
